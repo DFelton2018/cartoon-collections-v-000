@@ -16,6 +16,7 @@ def long_planeteer_calls(array)
   array.length > 4 ? true : false
 end
 
+<<<<<<< HEAD
 def find_the_cheese(food_array)
   cheeses = "cheddar","gouda","camembert"
   
@@ -24,3 +25,12 @@ def find_the_cheese(food_array)
     end
   end
 end
+=======
+def find_the_cheese(array)
+  cheese_types = ["cheddar", "gouda", "camembert"]
+  array.include?(cheese_types)
+  return cheese_types.first
+else nil
+  end
+end
+>>>>>>> 697afd019ff22281b81ee665aac23ce07052b278
